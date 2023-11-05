@@ -1,0 +1,66 @@
+.navbar-dark{
+    background-color: rgb(109, 47, 180);
+    opacity: 1;
+}
+
+
+.bg-dark {
+    --bs-bg-opacity: 1;
+    background-image: url(https://bit.ly/backbgbg);
+    width: 1903;
+    height: 447;
+}
+.text-white {
+    --bs-text-opacity: 1;
+    color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
+}
+.btn-primary {
+    color: #fff;
+    background-color: #740dfdc2;
+    border-color: #0d6efd00;
+}
+.btn-primary:hover {
+    color: #fff;
+    background-color: #d21bd8;
+    border-color: #9c27b0;
+}
+/*TEST*/
+/*image col*/
+.col1{
+    background-image: url(https://bit.ly/WEDbg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.col2{
+    background-image: url(https://bit.ly/36OSnbR);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.col3{
+    background-image: url(https://bit.ly/backbgbg);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+
+}
+.siamhov{
+    padding-top: 150px;
+}
+/*img to txt hover*/
+.hovtxt{
+    background-color: #00000080;
+    opacity: 0;
+    transition-duration: 1.2s;
+    transition-timing-function: ease-in-out;
+
+}
+.hovtxt:hover{
+    opacity: 1;
+    
+}
+.mahir{
+    padding-top: 50px;
+    align-content: center;
+}
